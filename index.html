@@ -9,5 +9,76 @@
 		<link rel="stylesheet" href="./dist/output.css" />
 		<title>Frontend Mentor | FAQ accordion</title>
 	</head>
-	<body></body>
+	<body class="bg-lightPink">
+		<!-- Top background image !-->
+		<section class="h-[300px] w-full bg-hero-pattern bg-cover bg-center"></section>
+		<!-- Top background image !-->
+		<!-- Accordeon Component !-->
+		<main class="-translate-y-28">
+			<div class="sm:px-6 px-3 md:container m-auto flex justify-center">
+				<div class="sm:pb-8 sm:pt-12 md:px-10 sm:px-6 pt-8 pb-4 px-5 max-w-[36rem] w-full bg-white rounded-xl shadow-xl">
+					<header class="flex item-center mb-4">
+						<img src="./assets/images/icon-star.svg" alt="star" />
+						<h1 class="text-5xl text-DarkPurple ml-5 font-bold">FAQs</h1>
+					</header>
+					<ul data-accordeon-wrapper>
+						<li tabindex="1" data-accordeon-item class="py-6 cursor-pointer border-b-[1px] border-lightPink last:border-b-0" aria-expanded="false" aria-controls="accordeon1-content">
+							<div class="group flex justify-between items-center text-DarkPurple duration-300">
+								<span class="font-semibold group-hover:text-LightPurple transition-colors"> What is Frontend Mentor, and how will it help me? </span>
+								<svg class="ml-3 max-w-[30px] max-h-[30px] w-full h-full group-hover:animate-wiggle" xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none" viewBox="0 0 30 31">
+									<path
+										class="hover:fill-[#301534] transition-all duration-300"
+										fill="#AD28EB"
+										d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"
+									/>
+								</svg>
+							</div>
+							<p class="py-3 hidden text-GrayishPurple">Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.</p>
+						</li>
+						<li tabindex="2" data-accordeon-item class="py-6 cursor-pointer border-b-[1px] border-lightPink last:border-b-0" aria-expanded="false" aria-controls="accordeon2-content">
+							<div class="group flex justify-between items-center text-DarkPurple duration-300">
+								<span class="font-semibold group-hover:text-LightPurple transition-colors"> Is Frontend Mentor free? </span>
+								<svg class="ml-3 max-w-[30px] max-h-[30px] w-full h-full group-hover:animate-wiggle" xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none" viewBox="0 0 30 31">
+									<path
+										class="hover:fill-[#301534] transition-all duration-300"
+										fill="#AD28EB"
+										d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"
+									/>
+								</svg>
+							</div>
+							<p class="py-3 hidden text-GrayishPurple">Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to a range of projects suitable for all skill levels.</p>
+						</li>
+						<li tabindex="3" data-accordeon-item class="py-6 cursor-pointer border-b-[1px] border-lightPink last:border-b-0" aria-expanded="false" aria-controls="accordeon3-content">
+							<div class="group flex justify-between items-center text-DarkPurple duration-300">
+								<span class="font-semibold group-hover:text-LightPurple transition-colors"> Can I use Frontend Mentor projects in my portfolio? </span>
+								<svg class="ml-3 max-w-[30px] max-h-[30px] w-full h-full group-hover:animate-wiggle" xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none" viewBox="0 0 30 31">
+									<path
+										class="hover:fill-[#301534] transition-all duration-300"
+										fill="#AD28EB"
+										d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"
+									/>
+								</svg>
+							</div>
+							<p class="py-3 hidden text-GrayishPurple">Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent way to showcase your skills to potential employers!</p>
+						</li>
+						<li tabindex="4" data-accordeon-item class="py-6 cursor-pointer border-b-[1px] border-lightPink last:border-b-0" aria-expanded="false" aria-controls="accordeon4-content">
+							<div class="group flex justify-between items-center text-DarkPurple duration-300">
+								<span class="font-semibold group-hover:text-LightPurple transition-colors"> How can I get help if I'm stuck on a Frontend Mentor challenge? </span>
+								<svg class="ml-3 max-w-[30px] max-h-[30px] w-full h-full group-hover:animate-wiggle" xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none" viewBox="0 0 30 31">
+									<path
+										class="hover:fill-[#301534] transition-all duration-300"
+										fill="#AD28EB"
+										d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"
+									/>
+								</svg>
+							</div>
+							<p class="py-3 hidden text-GrayishPurple">The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+		<!-- Accordeon Component !-->
+	</body>
+	<script defer src="./main.js"></script>
 </html>
